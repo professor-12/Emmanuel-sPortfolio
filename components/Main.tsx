@@ -2,7 +2,8 @@
 import React from "react";
 const Main = () => {
     return (
-        <div id="about" className="pt-[6rem] font-medium">
+        <div id="about" className="md:pt-[6rem] relative font-medium">
+            <div className="sticky p-2 top-0 backdrop-blur-md text-2xl py-6">About</div>
             <article className=" space-y-4 text-slate-500 text-lg">
                 Back in 2012, I decided to try my hand at creating custom Tumblr
                 themes and tumbled head first into the rabbit hole of coding and

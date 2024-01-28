@@ -7,9 +7,9 @@ const Home = () => {
     return (
         <div>
             <HomePage>
-                <div className="w-[80%] z-20 justify-between mx-auto px-12 h-full items-center  flex">
+                <div className="md:w-[80%] pt-12 md:pt-0 container p-3 z-20 justify-between mx-auto md:px-12 md:h-full items-center  lg:flex">
                     <Header />
-                    <main className="overflow-y-auto h-screen  ml-auto w-[47%] mr-12  text-slate-200">
+                    <main className="md:overflow-y-auto md:h-screen  ml-auto md:w-[47%] mr-12  text-slate-200">
                         <Main />
                         <Experience />
                         <Project />
