@@ -10,10 +10,10 @@ const Experience = () => {
             id="experience"
             className={`${poppins.className} py-[8rem] space-y-5`}
         >
-            <div className="sticky md:hidden p-2 top-0 backdrop-blur-md text-xl py-6">
+            <div className="sticky lg:hidden p-2 top-0 backdrop-blur-md text-xl py-6">
                 Experience
             </div>
-            <div className="card cursor-pointer p-6 md:flex justify-between gap-12 border hover:bg-teal-700/10  border-transparent hover:border-slate-800/40   rounded-lg">
+            <div className="card cursor-pointer p-6 lg:flex justify-between gap-12 border hover:bg-teal-700/10  border-transparent hover:border-slate-800/40   rounded-lg">
                 <p className="text-sm flex-auto flex font-semibold text-slate-400">
                     <span>2022</span>
                     <span className="mx-1"> - </span>
@@ -49,7 +49,7 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
-            <div className="card cursor-pointer p-6 md:flex justify-between gap-12  border-transparent border hover:bg-teal-700/10  hover:border-slate-800/40   rounded-lg">
+            <div className="card cursor-pointer p-6 lg:flex justify-between gap-12  border-transparent border hover:bg-teal-700/10  hover:border-slate-800/40   rounded-lg">
                 <p className="text-sm flex-auto flex font-semibold text-slate-400">
                     <span>2023</span>
                     <span className="mx-1"> - </span>

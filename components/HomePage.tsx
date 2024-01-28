@@ -1,5 +1,5 @@
 "use client";
-import React, { useState , MouseEvent } from "react";
+import React, { useState, MouseEvent } from "react";
 import PointerGradient from "./PointerGradient";
 
 const HomePage = ({ children }: any) => {
@@ -11,7 +11,7 @@ const HomePage = ({ children }: any) => {
         <div>
             <PointerGradient position={position} />
             <div
-                className="w-full  relative z-30 md:h-screen md:overflow-hidden"
+                className="w-full  relative z-30 lg:h-screen lg:overflow-hidden"
                 onMouseMove={handleChange}
             >
                 {children}
