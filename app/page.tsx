@@ -1,3 +1,4 @@
+"use client"
 import Experience from "@/components/Experience";
 import HomePage from "@/components/HomePage";
 import Main from "@/components/Main";
