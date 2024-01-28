@@ -9,7 +9,7 @@ const HomePage = ({ children }: any) => {
     };
     return (
         <div>
-            {/* <PointerGradient position={position} /> */}
+            <PointerGradient position={position} />
             <div
                 className="w-full  relative z-30 h-screen overflow-hidden"
                 onMouseMove={handleChange}
