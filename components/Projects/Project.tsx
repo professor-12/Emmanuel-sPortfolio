@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Project = async () => {
+const Project =  () => {
     const site = [{}] as any
     return (
         <div className="space-y-3 pt-12" id="project">
             <Link
-                href={site.deploy_url}
-                key={site?.id}
+                href={"www.google.com"}
                 target="_blank"
                 className="flex p-4 px-8 hover:bg-[#17274B] rounded-md justify-between gap-8 items-start"
             >
