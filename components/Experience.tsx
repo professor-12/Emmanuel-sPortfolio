@@ -36,7 +36,7 @@ const Experience = () => {
                         department through close collaboration, knowledge
                         shares, and mentorship.
                     </p>
-                    <div className="flex flex-wrap py-3 space-x-3">
+                    <div className="flex flex-wrap py-3 gap-3">
                         <button className="bg-[#122B39] text-[#5EEAD4] p-1 px-3 rounded-full">
                             HTML
                         </button>
@@ -72,7 +72,7 @@ const Experience = () => {
                         department through close collaboration, knowledge
                         shares, and mentorship.
                     </p>
-                    <div className="flex flex-wrap py-3 space-x-3">
+                    <div className="flex flex-wrap py-3 gap-3">
                         <button className="bg-[#122B39] text-[#5EEAD4] p-1 px-3 rounded-full">
                             React
                         </button>
