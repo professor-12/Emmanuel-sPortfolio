@@ -8,8 +8,9 @@ const HomePage = ({ children }: any) => {
         setPosition({ x: e.clientX, y: e.clientY });
     };
     return (
-        <div>
+        <div style={{cursor: "url('/Elima.png')"}}>
             <PointerGradient position={position} />
+
             <div
                 className="w-full  relative z-30 lg:h-screen lg:overflow-hidden"
                 onMouseMove={handleChange}

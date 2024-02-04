@@ -5,6 +5,7 @@
 
 * {
     scroll-behavior: smooth;
+    cursor: url('/Elma.png')
 }
 ::-webkit-scrollbar {
     display: none;

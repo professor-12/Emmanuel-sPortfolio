@@ -5,7 +5,7 @@ import { IoLogoLinkedin } from "react-icons/io5";
 import Link from "next/link"
 const Footer = () => {
     return (
-        <div className="flex space-x-5 pt-28 p-4">
+        <div className="flex space-x-5 lg:pt-28 p-4">
             <Link target="_blank"  href={"http://www.github.com/professor-12"}>
                 <FaGithub className="text-2xl text-slate-500 cursor-pointer hover:text-white" />
             </Link>

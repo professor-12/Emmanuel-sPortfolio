@@ -1,9 +1,13 @@
-
 import React from "react";
+import CustomCursor from "./CustomCursor";
 const Main = () => {
+   
+
     return (
         <div id="about" className="lg:pt-[6rem] w-full relative font-medium">
-            <div className="sticky p-2 top-0 backdrop-blur-md w-full text-2xl py-6">About</div>
+            <div className="sticky p-2 top-0 backdrop-blur-md w-full text-2xl py-6">
+                About
+            </div>
             <article className=" space-y-4 text-slate-500 text-lg">
                 Back in 2012, I decided to try my hand at creating custom Tumblr
                 themes and tumbled head first into the rabbit hole of coding and
@@ -20,10 +24,11 @@ const Main = () => {
                     everything you need to know to build a web app with the
                     Spotify API.
                 </div>
-                <div>
-                    When I&apos;m not at the computer, I&apos;m usually rock climbing,
-                    hanging out with my wife and two cats, or running around
-                    Hyrule searching for Korok seeds Korok seeds .
+                <div className="">
+                    When I&apos;m not at the computer, I&apos;m usually rock
+                    climbing, hanging out with my wife and two cats, or running
+                    around Hyrule searching for <CustomCursor/>
+                    
                 </div>
             </article>
         </div>

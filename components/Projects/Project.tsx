@@ -20,7 +20,7 @@ const Project = async () => {
                         >
                             <div className="">
                                 <Image
-                                    className="object-cover w-32 m-0 rounded ring-1"
+                                    className="object-cover w-32 m-0 rounded ring-slate-800 ring-[1.5px]"
                                     src={site.img}
                                     alt={site.title}
                                     width={350}
