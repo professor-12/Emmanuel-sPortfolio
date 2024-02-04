@@ -27,7 +27,7 @@ const Main = () => {
                 <div className="">
                     When I&apos;m not at the computer, I&apos;m usually rock
                     climbing, hanging out with my wife and two cats, or running
-                    around Hyrule searching for <CustomCursor/>
+                    around Hyrule searching<span className="flex space-x-3"> <span>for</span> <CustomCursor/></span>
                     
                 </div>
             </article>
