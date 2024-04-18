@@ -35,4 +35,14 @@ export const Projects = [
             link: "https://brilliant-crepe-5827dc.netlify.app",
             img: "https://d33wubrfki0l68.cloudfront.net/65a33e24016b532849d06c6d/screenshot_2024-01-14-01-52-58-0000.webp"
       },
+      {
+            title: "LoubbyAi",
+            link: "https://loubby-emmanuel.netlify.app/",
+            img: "https://d33wubrfki0l68.cloudfront.net/661d7c9d0078f900087ea7bb/screenshot_2024-04-15-19-17-08-0000.webp&fit=cover&h=500&w=800"
+      },
+      {
+            title: "Todo_App",
+            link: "https://loubby-emmanuel.netlify.app/",
+            img: "https://d33wubrfki0l68.cloudfront.net/661d7c9d0078f900087ea7bb/screenshot_2024-04-15-19-17-08-0000.webp&fit=cover&h=500&w=800"
+      },
 ]
