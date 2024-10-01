@@ -1,4 +1,4 @@
-export const Projects = [
+[
   {
     "id": "7ba80f32-5c36-4b1c-b3fc-abeb62c6908e",
     "site_id": "7ba80f32-5c36-4b1c-b3fc-abeb62c6908e",
@@ -4215,4 +4215,4 @@ export const Projects = [
     "default_domain": "devto-emmanuel.netlify.app",
     "use_envelope": true
   }
-] as const
+]

@@ -20,9 +20,6 @@ const Experience = () => {
                     <span>2023</span>
                 </p>
                 <div>
-                    <h1 className="hover:text-[#5EEAD4]  font-medium">
-                        Lead Engineer . Upstatement
-                    </h1>
                     <p className="text-slate-500 font-medium">
                         Junior Engineer
                     </p>
@@ -80,10 +77,10 @@ const Experience = () => {
                             NexJS
                         </button>
                         <button className="bg-[#122B39] text-[#5EEAD4] p-1 px-3 rounded-full">
-                            Angular
+                            AstroJs
                         </button>
                         <button className="bg-[#122B39] text-[#5EEAD4] p-1 px-3 rounded-full">
-                            Django
+                            TypeScript
                         </button>
                     </div>
                 </div>

@@ -1,18 +1,16 @@
-// import { Projects } from "@/lib/Data";
-import { getProject } from "@/lib/getProjects";
 import Image from "next/image";
 import Link from "next/link";
+import { Projects } from "../../lib/Data";
 
 const Project = async () => {
-    const project = await getProject();
     return (
         <div className="space-y-3 pt-12 overflow-hidden" id="project">
             <div className="sticky z-[20]  p-2 top-0 backdrop-blur-md text-xl py-6">
                 Project
             </div>
-            {project.map((site?: any) => {
+            {Projects.map((site?: any) => {
                 return (
-                    <div className="relative" key={site.id}>
+                    <div className="relative" key={site?.id}>
                         <Link
                             href={site?.url}
                             key={site?.url}
