@@ -9,7 +9,7 @@ const Main = () => {
             <article className=" space-y-4 text-slate-400 text-lg leading-[1.7rem]">
                 <div>
 
-                    I'm a passionate and skilled developer with a focus on creating innovative web applications and SaaS solutions. As a second-year Computer Science student at Obafemi Awolowo University, I’m dedicated to continuously leveling up my skills and building impactful projects.
+                    I&apos;m a passionate and skilled developer with a focus on creating innovative web applications and SaaS solutions. As a second-year Computer Science student at Obafemi Awolowo University, I’m dedicated to continuously leveling up my skills and building impactful projects.
                     With hands-on experience in modern technologies like <span className="text-slate-100 font-semibold">Next.js, React, Astro, Typescript, and Tailwind CSS</span>.
                     <p className="mt-4">
                         I enjoy solving complex problems and delivering professional solutions. I have a knack for developing collaborative and interactive platforms, such as chat applications, project management tools, and school management systems.
