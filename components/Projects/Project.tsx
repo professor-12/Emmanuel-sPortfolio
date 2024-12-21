@@ -15,8 +15,6 @@ const Project = () => {
                 return (
                     <div onClick={() => { push(site.live_link) }} className="relative" key={site?.title}>
                         <div
-
-
                             className="flex p-4 md:px-6 cursor-pointer hover:bg-[#17274B] rounded-md justify-between gap-8 items-start"
                         >
                             <div className="lg:w-36">
