@@ -8,7 +8,7 @@ const HomePage = ({ children }: any) => {
         setPosition({ x: e.clientX, y: e.clientY });
     };
     return (
-        <div style={{cursor: "url('/Elima.png')"}}>
+        <div style={{ cursor: "url('/Elima.png')" }}>
             <PointerGradient position={position} />
 
             <div

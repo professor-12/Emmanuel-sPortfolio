@@ -36,17 +36,17 @@ const CustomCursor = () => {
                 height={"40"}
                 alt="Custom cursor image"
             />
-            
-                <li>K</li>
-                <li>o</li>
-                <li>r</li>
-                <li>o</li>
-                <li>k</li> <li>s</li>
-                <li>e</li>
-                <li>e</li>
-                <li>d</li>
-                <li>s</li>
-            
+
+            <li>K</li>
+            <li>o</li>
+            <li>r</li>
+            <li>o</li>
+            <li>k</li> <li>s</li>
+            <li>e</li>
+            <li>e</li>
+            <li>d</li>
+            <li>s</li>
+
         </ul>
     );
 };
