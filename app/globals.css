@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
     scroll-behavior: smooth;
-    cursor: url('/Elma.png')
+    cursor: url("/Elma.png");
 }
 ::-webkit-scrollbar {
     display: none;
 }
+
