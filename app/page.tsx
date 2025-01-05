@@ -5,18 +5,19 @@ import Header from "@/components/Navigation/Header";
 import Project from "@/components/Projects/Project";
 const Home = () => {
     return (
-        <div>
-            <HomePage>
-                <div className="md:w-[85%] mr-20 pt-12 md:pt-0 container p-3 z-20 justify-between mx-auto lg:px-12 lg:h-full items-center  lg:flex">
-                    <Header />
-                    <main className="md:overflow-y-auto lg:h-screen w-full lg:ml-auto lg:w-[47%] lg:mr-12  text-slate-200">
+        <HomePage>
+            <div className="mx-auto max-md:container lg:w-[90%] xl:w-[80%] justify-between">
+                <Header />
+                <div className="relative max-md:mt-12">
+                    <main className="lg:max-w-[650px] lg:w-[50%] absolute top-0 right-0">
                         <Main />
                         <Experience />
                         <Project />
                     </main>
                 </div>
-            </HomePage>
-        </div>
+            </div>
+        </HomePage>
+
     );
 };
 

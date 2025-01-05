@@ -9,14 +9,16 @@ export const metadata: Metadata = {
   description: "A frontend engineer",
 };
 
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-      <html lang="en">
-          <body className={`bg-bgColor`}>{children}</body>
-      </html>
+    <html lang="en">
+      <body className={`bg-bgColor md:text-justify relative px-4 h-screen ${inter.className} `}>{children}</body>
+    </html>
   );
 }
