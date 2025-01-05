@@ -33,7 +33,7 @@ const NavLinks = () => {
                     <span className="bg-slate-700 h-px group-hover:bg-slate-400 group-hover:w-[80px] transition-all duration-500 cursor-pointer  w-[40px] p-1px" />
                 </span>{" "}
                 <span className="text-slate-600 group-hover:text-slate-300 transition-all duration-500">
-                    Project
+                    PROJECT
                 </span>
             </Link>
         </ul>

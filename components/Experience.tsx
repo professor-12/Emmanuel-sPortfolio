@@ -9,9 +9,9 @@ const Experience = () => {
     return (
         <div
             id="experience"
-            className={`${poppins.className} py-[3rem] space-y-5`}
+            className={`${poppins.className} space-y-5  scroll-mt-24`}
         >
-            <div className="sticky lg:hidden p-2 top-0 backdrop-blur-md text-xl py-6">
+            <div className="sticky lg:hidden text-white p-2 top-0 backdrop-blur-md text-xl py-6">
                 Experience
             </div>
             <ExperienceCard title="" content="I have experience leveraging Cloudflare for optimizing web performance, ensuring security, and managing DNS. Additionally, I have a bit of knowledge in Python, utilizing it for backend development,  scalable solutions across various applications." startyear="2024" endyear="Present" technologies={["AstroJs", "Cloudfare", "Python"]} />

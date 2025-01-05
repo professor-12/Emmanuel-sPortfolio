@@ -7,8 +7,8 @@ import { useRouter } from "next/navigation";
 const Project = () => {
     const { push } = useRouter()
     return (
-        <div className="space-y-3 pt-12 overflow-hidden" id="project">
-            <div className="sticky z-[20] md:hidden  p-2 top-0 backdrop-blur-md text-xl py-6">
+        <div className="space-y-3 relative  scroll-mt-20" id="project">
+            <div className="sticky lg:hidden text-white z-[20] p-2 top-0 backdrop-blur-md bg-transparent text-xl py-6">
                 Project
             </div>
             {Projects.map((site) => {
@@ -28,14 +28,14 @@ const Project = () => {
                                 />
                             </div>
                             <div className="w-[80%] relative flex h-24 flex-col">
-                                <h1 className="text-lg align-middle text-slate-400  font-semibold">
+                                <h1 className="text-[16px] align-middle text-slate-400  font-medium">
                                     {site?.title}
                                 </h1>
-                                <button onClick={(e) => { e.stopPropagation() }} className="text-sm absolute bottom-0 bg-violet-500/30 rounded-full  p-1 px-3">
+                                <button onClick={(e) => { e.stopPropagation() }} className="text-sm absolute bottom-0 bg-violet-500/30 rounded-full  p-1 px-[0.7rem]">
                                     <Link
                                         target="_blank"
                                         href={site?.source_code ?? "https:oauife.uk"}
-                                        className="text-[0.66rem]"
+                                        className="text-[0.6rem] text-slate-300/80"
                                     >
                                         Source code
                                     </Link>
@@ -46,7 +46,7 @@ const Project = () => {
                 );
             })}
 
-            <p className="text-cyan-300/80 font-semibold cursor-pointer text-right">View all Projects</p>
+            <p className="text-cyan-300/80 font-medium cursor-pointer text-right">View all Projects</p>
         </div>
     );
 };

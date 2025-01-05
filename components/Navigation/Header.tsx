@@ -4,9 +4,9 @@ import NavLinks from "./NavLinks";
 
 const Header = () => {
     return (
-        <div className="lg:fixed py-5">
+        <div className="lg:fixed ">
             <div className="space-y-4 text-slate-300">
-                <h1 className="md:text-5xl text-4xl font-bold ">Emmanuel Badejo</h1>
+                <h1 className="md:text-5xl text-4xl font-extrabold !font-sans ">Emmanuel Badejo</h1>
                 <p className="text-xl font-semibold">
                     Frontend Engineer
                 </p>
