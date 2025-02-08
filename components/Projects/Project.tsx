@@ -15,7 +15,7 @@ const Project = () => {
                 return (
                     <div onClick={() => { push(site.live_link) }} className="relative" key={site?.title}>
                         <div
-                            className="flex p-4 md:px-6 cursor-pointer hover:bg-[#17274B] rounded-md justify-between gap-8 items-start"
+                            className="flex p-4 md:px-6 cursor-pointer hover:bg-[#17274B]/50 rounded-md justify-between gap-8 items-start"
                         >
                             <div className="lg:w-36">
                                 <Image
@@ -31,22 +31,14 @@ const Project = () => {
                                 <h1 className="text-[16px] align-middle text-slate-400  font-medium">
                                     {site?.title}
                                 </h1>
-                                <button onClick={(e) => { e.stopPropagation() }} className="text-sm absolute bottom-0 bg-violet-500/30 rounded-full  p-1 px-[0.7rem]">
-                                    <Link
-                                        target="_blank"
-                                        href={site?.source_code ?? "https:oauife.uk"}
-                                        className="text-[0.6rem] text-slate-300/80"
-                                    >
-                                        Source code
-                                    </Link>
-                                </button>
                             </div>
                         </div>
                     </div>
                 );
             })}
-
-            <p className="text-cyan-300/80 font-medium cursor-pointer text-right">View all Projects</p>
+            <Link href="/allprojects">
+                <p className="text-cyan-300/80 font-medium cursor-pointer text-right mb-6">View all Projects</p>
+            </Link>
         </div>
     );
 };
