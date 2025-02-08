@@ -23,10 +23,5 @@ export const Projects = [
         source_code: "https://github.com/professor-12/todo-app",
         live_link: "https://emmanuel-todo.netlify.app/",
     },
-    {
-        image: "/dot.webp",
-        title: "Dot ai clone",
-        source_code: "https://github.com/professor-12/dot-ai-clone",
-        live_link: "https://emmanuel-dot-clone.netlify.app/",
-    },
+   
 ] as const;

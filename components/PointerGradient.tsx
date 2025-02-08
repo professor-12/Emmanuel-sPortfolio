@@ -19,11 +19,11 @@ const PointerGradient = ({ position }: any) => {
         <div ref={ref}>
             <div
                 style={{ left: position.x - (_position.x / 4), top: position.y - 100 }}
-                className="h-[25rem] fixed   max-md:hidden  w-[30rem] blur-[250px] bg-gradient-to-tr from-[#1d4ed826] to-violet-600"
+                className="h-[25rem] fixed   max-md:hidden  w-[30rem] blur-[250px] bg-gradient-to-tr from-[#1d4ed826] to-violet-900"
             />
             <div
 
-                className="h-[15rem] md:hidden top-0 left-2 fixed    w-[30rem] blur-[250px] bg-gradient-to-tr from-[#1d4ed826] to-violet-600"
+                className="h-[15rem] md:hidden top-0 left-2 fixed    w-[30rem] blur-[250px] bg-gradient-to-tr from-[#1d4ed826] to-violet-900"
             />
         </div>
     );
