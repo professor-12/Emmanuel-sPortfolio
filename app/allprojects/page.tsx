@@ -6,22 +6,24 @@ export const metadata = {
       title: "All Projects | Badejo Emmanuel"
 }
 
-// {
-//       image: "/dot.webp",
-//             title: "Dot ai clone",
-//                   source_code: "https://github.com/professor-12/dot-ai-clone",
-//                         live_link: "https://emmanuel-dot-clone.netlify.app/",
-//     },
-
 const projects = [
       {
             year: "2025",
             projectname: "Cloud Store",
             link: {
-                  href: "https://cloud-store-hlzk.onrender.com/home",
+                  href: "https://cloud-store-hlzk.onrender.com",
                   name: "cloud-store.com"
             },
             buitWith: ["React", "Javascript", "Tailwindcss"]
+      },
+      {
+            year: "2025",
+            projectname: "Chat Application",
+            link: {
+                  href: "https://chatx-fwdl.onrender.com/",
+                  name: "chatX.com"
+            },
+            buitWith: ["Nextjs", "Typescript", "Tailwindcss", "Prisma", "Postgresql"]
       },
       {
             year: "2024",
@@ -40,16 +42,6 @@ const projects = [
                   name: "reweb.oauife.uk"
             },
             buitWith: ["React", "Javascript", "Tailwindcss"]
-      },
-
-      {
-            year: "2024",
-            projectname: "Chat Application",
-            link: {
-                  href: "https://ay-messsanger.netlify.app/",
-                  name: "messanger.app"
-            },
-            buitWith: ["React", "Typescript", "Tailwindcss"]
       },
       {
             year: "2023",
