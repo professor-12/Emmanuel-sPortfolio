@@ -12,7 +12,7 @@ const Footer = () => {
             <Link
                 target="_blank"
                 href={
-                    "https://www.linkedin.com/in/badejo-emmanuel-890414293/"
+                    "https://x.com/BadejoEmma56434"
                 }
             >
                 <FaTwitter className="text-2xl text-slate-500 cursor-pointer hover:text-white" />
@@ -20,7 +20,7 @@ const Footer = () => {
             <Link
                 target="_blank"
                 href={
-                    "https://www.linkedin.com/in/badejo-emmanuel-890414293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    "https://www.linkedin.com/in/badejo-emmanuel-890414293/"
                 }
             >
                 <IoLogoLinkedin className="text-2xl text-slate-500 cursor-pointer hover:text-white" />
