@@ -8,38 +8,20 @@ export const metadata = {
 
 const projects = [
       {
-            year: "2025",
-            projectname: "Cloud Store",
-            link: {
-                  href: "https://cloud-store-hlzk.onrender.com",
-                  name: "cloud-store.com"
-            },
-            buitWith: ["React", "Javascript", "Tailwindcss"]
-      },
-      {
-            year: "2025",
-            projectname: "Chat Application",
-            link: {
-                  href: "https://chatx-fwdl.onrender.com/",
-                  name: "chatX.com"
-            },
-            buitWith: ["Nextjs", "Typescript", "Tailwindcss", "Prisma", "Postgresql"]
-      },
-      {
             year: "2024",
             projectname: "Dot Ai",
             link: {
-                  href: "ttps://emmanuel-dot-clone.netlify.app/",
+                  href: "https://emmanuel-dot-clone.netlify.app/",
                   name: "dot.ai.com"
             },
             buitWith: ["Astro", "Typescript", "Tailwindcss"]
       },
       {
             year: "2024",
-            projectname: "Reweb",
+            projectname: "Taski",
             link: {
-                  href: "https://reweb.oauife.uk",
-                  name: "reweb.oauife.uk"
+                  href: "https://emmanuel-todo.netlify.app/",
+                  name: "emmanuel-todo.netlify.app"
             },
             buitWith: ["React", "Javascript", "Tailwindcss"]
       },
@@ -63,7 +45,7 @@ const projects = [
 const AllProjects = () => {
       return (
             <div className='!font-sans'>
-                  <div className='w-full text-slate-200 max-w-[1200px] mx-auto  py-12 px-2 md:px-6'>
+                  <div className='w-full text-slate-200 max-w-[1200px] mx-auto  py-12 pt-[60px] px-2 md:px-6'>
                         <div className='space-y-4 mt-6 group'>
                               <Link href="/" className='inline'>
                                     <div className='inline-flex tracking-wide text-teal-300 items-center font-[600]'>

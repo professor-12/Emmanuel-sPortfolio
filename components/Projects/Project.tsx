@@ -13,27 +13,30 @@ const Project = () => {
             </div>
             {Projects.map((site) => {
                 return (
-                    <div onClick={() => { push(site.live_link) }} className="relative" key={site?.title}>
-                        <div
-                            className="flex p-4 md:px-6 cursor-pointer hover:bg-[#17274B]/50 rounded-md justify-between gap-8 items-start"
-                        >
-                            <div className="lg:w-36">
-                                <Image
-                                    className="object-cover brightness-90 min-w-40 md:h-24 m-0 rounded ring-slate-800 ring-[1.5px]"
-                                    src={
-                                        site.image ? site?.image : "https://app.netlify.com/06dc8dda360a79a8ec50.webp"}
-                                    alt={site?.title}
-                                    width={350}
-                                    height={350}
-                                />
-                            </div>
-                            <div className="w-[80%] relative flex h-24 flex-col">
-                                <h1 className="text-[16px] align-middle text-slate-400  font-medium">
-                                    {site?.title}
-                                </h1>
+                    <Link href={site.live_link} target="_blank">
+                        <div className="relative" key={site?.title}>
+                            <div
+                                className="flex p-4 md:px-6 cursor-pointer hover:bg-[#17274B]/50 rounded-md justify-between gap-8 items-start"
+                            >
+                                <div className="lg:w-36">
+                                    <Image
+                                        className="object-cover brightness-90 min-w-40 md:h-24 m-0 rounded ring-slate-800 ring-[1.5px]"
+                                        src={
+                                            site.image ? site?.image : "https://app.netlify.com/06dc8dda360a79a8ec50.webp"}
+                                        alt={site?.title}
+                                        width={350}
+                                        height={350}
+                                    />
+                                </div>
+                                <div className="w-[80%] relative flex h-24 flex-col">
+                                    <h1 className="text-[16px] align-middle text-slate-400  font-medium">
+                                        {site?.title}
+                                    </h1>
+                                    {/* <p title={site?.description} className="text-white/60 text-left line-clamp-3 text-xs font-light">{site?.description}</p> */}
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 );
             })}
             <Link href="/allprojects">
