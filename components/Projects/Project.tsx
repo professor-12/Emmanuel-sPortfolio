@@ -13,7 +13,7 @@ const Project = () => {
             </div>
             {Projects.map((site) => {
                 return (
-                    <Link href={site.live_link} target="_blank">
+                    <Link href={site.live_link} key={site?.title} target="_blank">
                         <div className="relative" key={site?.title}>
                             <div
                                 className="flex p-4 md:px-6 cursor-pointer hover:bg-[#17274B]/50 rounded-md justify-between gap-8 items-start"
