@@ -12,15 +12,7 @@ const Footer = () => {
             <Link
                 target="_blank"
                 href={
-                    "https://www.instagram.com/pr.ofessor6702?igsh=MXJ0c25qYWNpaDRy"
-                }
-            >
-                <BsInstagram className="text-2xl text-slate-500 cursor-pointer hover:text-white" />
-            </Link>
-            <Link
-                target="_blank"
-                href={
-                    "https://twitter.com/BadejoEmma56434?t=YMS4ylFRRXrL_HaDuP05yA&s=09"
+                    "https://www.linkedin.com/in/badejo-emmanuel-890414293/"
                 }
             >
                 <FaTwitter className="text-2xl text-slate-500 cursor-pointer hover:text-white" />
