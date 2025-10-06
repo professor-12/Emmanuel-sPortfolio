@@ -4,7 +4,7 @@ import NavLinks from "./NavLinks";
 
 const Header = () => {
     return (
-        <div className="lg:fixed ">
+        <div className="lg:fixed">
             <div className="space-y-4 text-slate-300">
                 <h1 className="md:text-5xl text-4xl font-extrabold !font-sans ">Emmanuel Badejo</h1>
                 <p className="text-xl font-semibold">
@@ -18,7 +18,7 @@ const Header = () => {
             <div className="md:mt-[6rem] hidden lg:flex">
                 <NavLinks />
             </div>
-            <div className="md:mt-[5rem]">
+            <div className="md:mt-[5rem] mb-4">
                 <Footer></Footer>
             </div>
         </div>

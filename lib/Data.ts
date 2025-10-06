@@ -1,5 +1,13 @@
 export const Projects = [
     {
+        image: "/loom.png",
+        title: "Loopify",
+        description:
+            "A full-stack real-time chat application built with Next.js, WebSockets, and WebRTC.",
+        source_code: "https://github.com/professor-12/loom-clone",
+        live_link: "https://loop.oauife.uk/",
+    },
+    {
         image: "/chat.png",
         title: "ChatX",
         description:

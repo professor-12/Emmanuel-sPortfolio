@@ -25,6 +25,7 @@ const NavLinks = () => {
                     EXPERIENCE
                 </span>
             </Link>
+
             <Link
                 href="#project"
                 className="flex group cursor-pointer space-x-3  items-center"
@@ -34,6 +35,17 @@ const NavLinks = () => {
                 </span>{" "}
                 <span className="text-slate-600 group-hover:text-slate-300 transition-all duration-500">
                     PROJECT
+                </span>
+            </Link>
+            <Link
+                href="/resume.pdf"
+                className="flex group cursor-pointer space-x-3  items-center"
+            >
+                <span className="flex items-end">
+                    <span className="bg-slate-700 h-px group-hover:bg-slate-400 group-hover:w-[80px] transition-all duration-500 cursor-pointer  w-[40px] p-1px" />
+                </span>{" "}
+                <span className="text-slate-600 group-hover:text-slate-300 transition-all duration-500">
+                    RESUME
                 </span>
             </Link>
         </ul>
