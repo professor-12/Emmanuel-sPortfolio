@@ -3,7 +3,7 @@ export const Projects = [
         image: "/loom.png",
         title: "Loopify",
         description:
-            "A full-stack real-time chat application built with Next.js, WebSockets, and WebRTC.",
+            "A Loom inspired application built for screen recording and camera",
         source_code: "https://github.com/professor-12/loom-clone",
         live_link: "https://loop.oauife.uk/",
     },
@@ -22,6 +22,14 @@ export const Projects = [
         live_link: "https://cloud-store-hlzk.onrender.com/",
         description:
             "A cloud-based file storage and sharing platform inspired by Google Drive.",
+    },
+    {
+        image: "/loubby.webp",
+        title: "Loubby Ai clone",
+        source_code: "https://github.com/professor-12/loubby-ai",
+        live_link: "https://loubby-emmanuel.netlify.app/",
+        description:
+            "Connect with Africa’s best remote professionals and let AI handle the heavy lifting rom hiring to management so you can focus on growing your business.",
     },
     {
         image: "",
