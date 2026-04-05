@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Projects } from "../../lib/Data";
 const Project = () => {
     return (
-        <div className="space-y-3 relative pt-12  scroll-mt-20" id="project">
+        <div className="space-y-6 relative pt-12  scroll-mt-20" id="project">
             <div className="sticky lg:hidden text-white z-[20] p-2 top-0 backdrop-blur-md bg-transparent text-xl py-6">
                 Project
             </div>
@@ -28,7 +28,7 @@ const Project = () => {
                                     <h1 className="text-[16px] align-middle text-slate-400  font-medium">
                                         {site?.title}
                                     </h1>
-                                    <p title={site?.description} className="text-white/60 text-left line-clamp-3 text-xs font-light">{site?.description}</p>
+                                    <p title={site?.description} className="text-white/60 text-left line-clamp-3 text-sm font-light">{site?.description}</p>
                                 </div>
                             </div>
                         </div>

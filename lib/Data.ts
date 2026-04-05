@@ -5,7 +5,7 @@ export const Projects = [
         description:
             "A Loom inspired application built for screen recording and camera",
         source_code: "https://github.com/professor-12/loom-clone",
-        live_link: "https://loop.oauife.uk/",
+        live_link: "https://loop.bigdev.uk/",
     },
     {
         image: "/chat.png",
@@ -13,7 +13,7 @@ export const Projects = [
         description:
             "A full-stack real-time chat application built with Next.js, WebSockets, and WebRTC.",
         source_code: "https://github.com/professor-12/chatX",
-        live_link: "https://chat.oauife.uk/",
+        live_link: "https://chat.bigdev.uk/",
     },
     {
         image: "/cloud.png",

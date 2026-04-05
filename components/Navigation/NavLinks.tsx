@@ -5,7 +5,7 @@ const NavLinks = () => {
         <ul className="space-y-4  text-slate-300 text-sm font-bold">
             <Link
                 href="#about"
-                className="flex group cursor-pointer space-x-3  items-center"
+                className="flex group cursor-pointer space-x-3  text-sm items-center"
             >
                 <span className="flex items-end">
                     <span className="bg-slate-700 h-px group-hover:bg-slate-400 group-hover:w-[80px] transition-all duration-500 cursor-pointer  w-[40px] p-px" />
@@ -39,6 +39,7 @@ const NavLinks = () => {
             </Link>
             <Link
                 href="/resume.pdf"
+                target="_blank"
                 className="flex group cursor-pointer space-x-3  items-center"
             >
                 <span className="flex items-end">

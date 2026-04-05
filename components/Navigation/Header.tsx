@@ -8,11 +8,11 @@ const Header = () => {
             <div className="space-y-4 text-slate-300">
                 <h1 className="md:text-5xl text-4xl font-extrabold !font-sans ">Emmanuel Badejo</h1>
                 <p className="text-xl font-semibold">
-                    Frontend Engineer
+                    Software Engineer
                 </p>
-                <p className="text-slate-500 mt-12 text-lg font-medium">
+                <p className="text-slate-500 mt-12 font-medium">
                     I build pixel-perfect, accessible products <br /> for the
-                    web and beyond.
+                    web
                 </p>
             </div>
             <div className="md:mt-[6rem] hidden lg:flex">

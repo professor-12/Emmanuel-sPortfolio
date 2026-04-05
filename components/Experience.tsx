@@ -14,9 +14,49 @@ const Experience = () => {
             <div className="sticky lg:hidden text-white p-2 top-0 backdrop-blur-md text-xl py-6">
                 Experience
             </div>
-            <ExperienceCard title="" content="I have experience leveraging Cloudflare for optimizing web performance, ensuring security, and managing DNS. Additionally, I have a bit of knowledge in Python, utilizing it for backend development,  scalable solutions across various applications." startyear="2024" endyear="Present" technologies={["Astro", "Cloudfare", "Python"]} />
-            <ExperienceCard title="" content="I have hands-on experience building responsive and dynamic web applications using React, Astro, and Tailwind CSS. Proficient in crafting modern UI/UX designs, optimizing performance, and implementing reusable components to deliver efficient, scalable, and visually appealing user experiences." startyear="2023" endyear="2024" technologies={["React", "Nextjs", "Typescript", "tailwind"]} />
-            <ExperienceCard content=" I have a strong foundation in HTML, CSS, and JavaScript, with experience building responsive websites and dynamic user interfaces. I excel in creating semantic HTML structures, implementing custom CSS designs, and using JavaScript for interactivity. My projects showcase proficiency in DOM manipulation, API integration, and cross-browser compatibility." startyear="2022" endyear="2023" technologies={["HTML", "CSS", "Javascript"]} title="Junior Engineer" />
+            <ExperienceCard
+                title="Full-Stack Engineer"
+                content="I have experience deploying and managing cloud services using Cloudflare, Docker, and CI/CD pipelines. Skilled in C#  and Java Script for backend development, creating scalable and maintainable full-stack solutions across multiple applications."
+                startyear="2025"
+                endyear="Present"
+                technologies={["DevOps", "CI/CD", "Docker", "Google Cloud", "ASP.NET Core","Java"]}
+            />
+
+            <ExperienceCard
+                title="Full-Stack Engineer"
+                content="I leveraged Cloudflare for web performance optimization, security, and DNS management. Built full-stack solutions using Python and modern frontend frameworks, delivering scalable and efficient applications with seamless backend integration."
+                startyear="2024"
+                endyear="2025"
+                technologies={["Astro", "Cloudflare", "Python", "Nest.js","C#"]}
+            />
+
+            <ExperienceCard
+                title="Full-Stack Developer"
+                content="Hands-on experience building responsive and dynamic web applications with React, Astro, Next.js, and Tailwind CSS. Developed both frontend and backend components, optimized performance, and implemented reusable, scalable solutions with modern UI/UX best practices."
+                startyear="2023"
+                endyear="2024"
+                technologies={[
+                    "React",
+                    "Next.js",
+                    "TypeScript",
+                    "Tailwind CSS",
+                    "Python",
+                    "Django",
+                ]}
+            />
+
+            <ExperienceCard
+                title="Junior Full-Stack Engineer"
+                content="Strong foundation in HTML, CSS, and JavaScript with full-stack development exposure. Built responsive websites and dynamic user interfaces with backend integration, API connections, and cross-browser compatibility to deliver complete web solutions."
+                startyear="2022"
+                endyear="2023"
+                technologies={[
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "Node.js",
+                ]}
+            />
         </div>
     );
 };
